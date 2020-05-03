@@ -10,7 +10,7 @@
     }
  @media(max-width:499px){
 .grid {
-    background-color: #8688a6;
+    background-color: red;
     display: grid;
     padding: 20px;
     grid-column-gap: 5px;
