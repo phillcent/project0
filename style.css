@@ -1,3 +1,4 @@
+@media(min-width:500px){
 .grid {
     background-color: #8688a6;
     display: grid;
@@ -6,6 +7,21 @@
     grid-row-gap: 10px;
     grid-template-columns: auto auto;
         }
+    }
+ @media(max-width:499px){
+.grid {
+    background-color: #8688a6;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+        }
+    }
+a:hover{color: red;}
+ol li{font-style: italic;}
+ul>li{color: crimson;}
+a[type=link]{color: crimson;}
 #grid{
     grid-template-columns: auto auto auto;
         }
