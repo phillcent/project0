@@ -23,7 +23,7 @@
             }
             @media (max-width: 499px) {
             body {
-                background-color: rgb(104, 78, 83);
+                background-color: green;
             }
             }
 a:hover{color: red;}
