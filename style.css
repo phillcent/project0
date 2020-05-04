@@ -8,6 +8,14 @@
     grid-template-columns: auto auto;
         }
 
+        .grid1 {
+            background-color: #8688a6;
+            display: grid;
+            padding: 20px;
+            grid-column-gap: 5px;
+            grid-row-gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+                }
         @media (min-width: 500px) {
             body {
                 background-color:white;
@@ -15,16 +23,14 @@
             }
             @media (max-width: 499px) {
             body {
-                background-color: crimson;
+                background-color: rgb(104, 78, 83);
             }
             }
 a:hover{color: red;}
 ol li{font-style: italic;}
 ul>li{color: crimson;}
 a[type=link]{color: crimson;}
-#grid{
-    grid-template-columns: auto auto auto;
-        }
+
 .grid-item {
     background-color: whitesmoke;
     font-size: 20px;
@@ -49,7 +55,8 @@ a[type=link]{color: crimson;}
     text-align: center;
 }
 #header1{text-align:left ;}
-#header2{text-align: justify;}
+#header2{text-align: justify;
+font-size: 2vw;}
 #table {
     border: 2px solid black;
     border-collapse: collapse;
@@ -62,6 +69,7 @@ th, td {
     border: 1px solid black;
     padding: 5px;
     text-align: left;
+    font-size: 1vw;
 }
 
 th {
