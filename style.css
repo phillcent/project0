@@ -2,6 +2,7 @@
 .grid {
     background-color: #8688a6;
     display: grid;
+    font-size: 1.5vw;
     padding: 10px;
     grid-column-gap: 5px;
     grid-row-gap: 10px;
@@ -9,16 +10,16 @@
         }
 
         
-        @media (min-width: 500px) {
-            body {
-                background-color:white;
-            }
-            }
-            @media (max-width: 499px) {
-            body {
-                background-color: #9be0ad;
-            }
-            }
+@media (min-width: 500px) {
+    body {
+          background-color:white;
+        }
+        }
+@media (max-width: 499px) {
+    body {
+          background-color: #9be0ad;
+        }
+        }
 a:hover{color: green;}
 ol li{font-style: italic;}
 ul>li{color: crimson;}
@@ -27,30 +28,24 @@ a[type=link]{color: black;}
 .grid-item {
     background-color: whitesmoke;
     font-size: 1.5vw;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     
         }
-.about,#header1{
+#header1{
     text-align: justify;
     margin: 5px;
     color: black;
+    text-align:left ;
     }
-.about1, #header{
-        
-        padding-right: 15px;
-        width: 100%;
-        text-align: center;
-        color: black;
-        }
+
 #header{
     background-color: #8688a6;
     text-align: center;
     font-size: 2vw;
 }
-#header1{text-align:left ;}
-#header2{text-align: justify;
-font-size: 1.5vw;}
+
+
 #table {
     border: 2px solid black;
     border-collapse: collapse;
