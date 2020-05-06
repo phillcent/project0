@@ -6,13 +6,15 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">     
         <style>
             .body{
-                margin: 30px;
+                margin: 2px;
             }
-            .container{
+            .my-container{
                 border: 1px solid red;
             }
             .my-row{
                 border: 3px solid crimson;
+                height: auto;
+                
             }
             .my-col{
                 border: 1px dotted blue;
@@ -20,20 +22,28 @@
         </style>
     </head>
     <body>
-        <div class="container container">
+        <div class="container my-container">
             <div class="row my-row">
-                <div class="col my-col">
-                        row 1 of 1
+                <div class="col-auto my-col">
+                        <img src="philip.jpeg" alt="" class="my-row">
                 </div>
                 <div class="col my-col">
-                        row 1 of 2
+                    <h1>About Philip</h1>
+                    <p>In reviewing the attached resume, you will note that I have acquired valuable experience in all facets of troubleshooting, support for various operations, hardware, and application. I possess a unique talent for delivering highly complex technical information into terms and concepts that the end users can readily grasp. In addition to my experience and personal qualities. I excel under pressure, am skilled at building rapport with both colleagues and customers, and proficiently handle complex technical issues. Furthermore, I am multi-task oriented, enjoy a challenge, and continually stay abreast of the latest advancements in the IT field</p>
+                    <br><br>
+                    <h4>To Talk about</h4>
+                    <ul>
+                        <li><a href="jobs.html" type="link">Job Experience</a></li>
+                        <li><a href="careers.html" type="link">Course Goals</a></li>
+                        <li><a href="course.html" type="link">Career Goals</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row my-row">
-                <div class="col my-col">
+            <div class="row my-row justify-content-around align-items-start"> 
+                <div class="col-4 my-col align-self-stretch order-xs-12">
                     row 2 of 1
                 </div>
-                <div class="col">
+                <div class="col-4 my-col order-xs-2">
                     row 2 of 2
                 </div>
             </div>
